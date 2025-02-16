@@ -28,8 +28,8 @@ git clone https://github.com/Yasser-Fekry/Computer_Graphics.git
 git --version || winget install --id Git.Git -e --source winget
 
 # If you're a Linux user, grant execution permission and run 🚀
-chmod +x install_opengl_flask.sh
-./install_opengl_flask.sh
+chmod +x install_software.sh
+./install_software.sh
 ```
 
 ---
