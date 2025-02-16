@@ -1,21 +1,49 @@
-# OpenGL-Flask-Setup 💻☕
+# 🚀 OpenGL and Flask Auto-Setup 💻🔥
 
-![The Image ](https://opengl.bassi.li/devlog/lesson-1-wireframe.png)
-This script automates the installation of OpenGL and Flask libraries, making it easier to set up your development environment for graphics programming and web applications. Whether you're working on 3D graphics or building a web interface for your OpenGL projects, this script has got you covered.
+![OpenGL Wireframe](https://opengl.bassi.li/devlog/lesson-1-wireframe.png)
 
-## Supported Libraries:
+🎯 **This script simplifies the installation of OpenGL and Flask libraries automatically, making your development environment setup quick and easy!** Whether you're working on **3D graphics programming** or **developing web interfaces for OpenGL projects**, this script has got you covered! 😍
 
-- OpenGL
-- Flask
+---
 
-## How to Use:
+## 📌 Supported Libraries:
 
-1. Download the script.
-   `https://github.com/Yasser-Fekry/Computer_Graphics.git`
-2. Run the script using the following commands:
-   ```bash
-   git --version
-   winget install --id Git.Git -e --source winget
-   chmod +x install_opengl_flask.sh // If you Linux User
-   ./install_opengl_flask.sh
-   ```
+✅ OpenGL 🖥️
+✅ Flask 🌍
+
+---
+
+## ⚡ How to Use:
+
+1️⃣ Download the script 📥:
+
+```bash
+git clone https://github.com/Yasser-Fekry/Computer_Graphics.git
+```
+
+2️⃣ Run the script using the following commands:
+
+```bash
+# Check if Git is installed (if not, install it)
+git --version || winget install --id Git.Git -e --source winget
+
+# If you're a Linux user, grant execution permission and run 🚀
+chmod +x install_opengl_flask.sh
+./install_opengl_flask.sh
+```
+
+---
+
+## 🛠️ Requirements:
+
+- **Windows or Linux** 🖥️
+- **Git** ✅
+- **Python 3+** 🐍
+
+💡 Once you run the script, all necessary libraries will be installed automatically! 💯
+
+---
+
+## 📢 Enjoy Coding 🚀🎨
+
+If you face any issues, feel free to open an **Issue** on GitHub or reach out to us! 🔥
