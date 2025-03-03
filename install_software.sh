@@ -1,6 +1,22 @@
 #!/bin/bash
 
-echo "Starting Flask and PyOpenGL installation..."
+echo "Starting installation..."
+
+# Install Pillow
+pip install pillow
+if [ $? -eq 0 ]; then
+    echo "Pillow has been installed successfully ✅!"
+else
+    echo "Failed to install Pillow. Please check your Python and pip setup."
+fi
+
+# Install Matplotlib
+pip install matplotlib
+if [ $? -eq 0 ]; then
+    echo "Matplotlib has been installed successfully ✅!"
+else
+    echo "Failed to install Matplotlib. Please check your Python and pip setup."
+fi
 
 # Install Flask 
 pip install flask
@@ -28,4 +44,3 @@ fi
 
 echo "Created by [Yasser Fekry] 👑🔥"
 read -p "Press Enter to exit..."
-
